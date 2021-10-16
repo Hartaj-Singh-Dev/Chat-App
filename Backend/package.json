@@ -2,20 +2,19 @@
   "name": "Backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dayjs": "^1.10.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "pino": "^6.11.3",
+    "nanoid": "^3.1.30",
     "socket.io": "^4.1.2"
   }
 }
